@@ -1,16 +1,35 @@
-# Ignore Maven target directories
+# ==========================
+# Maven
+# ==========================
 **/target/
+**/.mvn/
 
-# IDE files
+# ==========================
+# Java
+# ==========================
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+
+# ==========================
+# IDE Files
+# ==========================
 .idea/
 .vscode/
+*.iml
 
-# Compiled Java files
-*.class
-
-# Logs
-*.log
-
-# OS files
+# ==========================
+# OS Files
+# ==========================
 Thumbs.db
 desktop.ini
+.DS_Store
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp

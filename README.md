@@ -1,27 +1,73 @@
-# Oasis Infobyte Java Development Internship
+# 🚀 Oasis Infobyte Java Development Virtual Internship
 
-This repository contains three Java console projects completed as part of the Oasis Infobyte Java Development Virtual Internship.
+This repository contains the projects I completed during my **Java Development Virtual Internship** at **Oasis Infobyte**. These projects demonstrate my understanding of **Core Java, Object-Oriented Programming (OOP), Maven, Git, and problem-solving**.
 
-## Projects
+---
 
-- NumberGuessingGame
-  - Description: Core Java console application where users guess a randomly generated number.
-  - Technologies Used: Java, Maven
-  - Folder Name: `NumberGuessingGame`
+## 📂 Projects
 
-- ATMInterface
-  - Description: Console based ATM simulation supporting login, deposit, withdrawal, balance inquiry and transaction history.
-  - Technologies Used: Java, Maven
-  - Folder Name: `ATMInterface`
+### 🎯 Number Guessing Game
+A console-based Java application where the user guesses a randomly generated number with hints after every attempt.
 
-- OnlineExamination
-  - Description: Console based Online Examination System supporting login, MCQ exam, timer, result calculation and logout.
-  - Technologies Used: Java, Maven
-  - Folder Name: `OnlineExamination`
+**Key Features**
+- Random number generation
+- High/Low hints
+- Score calculation
+- Multiple rounds
+- Exception handling
 
-## Project Structure
+**Tech Stack**
+- Java
+- Maven
 
-```
+---
+
+### 🏦 ATM Interface
+A console-based ATM simulation implementing common banking operations.
+
+**Key Features**
+- User Login
+- Balance Inquiry
+- Deposit
+- Withdraw
+- Transaction History
+
+**Tech Stack**
+- Java
+- Maven
+
+---
+
+### 📝 Online Examination System
+A console-based examination system that simulates an online MCQ exam.
+
+**Key Features**
+- User Login
+- Password Update
+- MCQ Examination
+- Timer
+- Auto Submission
+- Result Generation
+
+**Tech Stack**
+- Java
+- Maven
+
+---
+
+## 🛠 Technologies Used
+
+- Core Java
+- Object-Oriented Programming (OOP)
+- Maven
+- Git
+- GitHub
+
+---
+
+## 📁 Repository Structure
+
+```text
 OIBSIP/
 ├── NumberGuessingGame/
 ├── ATMInterface/
@@ -30,30 +76,44 @@ OIBSIP/
 └── .gitignore
 ```
 
-## How to Run (per project)
+---
 
-1. Open the project folder you want to run (for example `NumberGuessingGame`).
-2. Ensure Java (11+ or 17+ as noted in each project) and Maven are installed.
-3. From the project folder run:
+## ▶️ How to Run
+
+1. Clone this repository.
+2. Open any project folder.
+3. Build the project:
 
 ```bash
 mvn clean compile
+```
+
+4. Run the application:
+
+```bash
 mvn exec:java
 ```
 
-Or run the main class from your IDE using the exact package and `App` class for that project.
+Or simply open the project in IntelliJ IDEA or VS Code and run the `App.java` file.
 
-## Technologies Used
+---
 
-- Java (Core Java)
-- Maven
+## 👨‍💻 Author
 
-## Author
+**Piyush Thakur**
 
-- Name: Piyush Thakur
 - GitHub: https://github.com/Piyushthakur99
 
-## Notes
+---
 
-- All internship tasks are maintained inside this single repository named `OIBSIP`.
-- Do not modify source packages unless you understand the implications for compilation and runtime.
+## ⭐ Internship
+
+Organization: **Oasis Infobyte**
+
+Program: **Java Development Virtual Internship**
+
+Duration: **1 Month**
+
+---
+
+If you found these projects useful, consider giving this repository a ⭐.
