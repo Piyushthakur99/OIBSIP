@@ -1,0 +1,16 @@
+# Ignore Maven target directories
+**/target/
+
+# IDE files
+.idea/
+.vscode/
+
+# Compiled Java files
+*.class
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+desktop.ini
